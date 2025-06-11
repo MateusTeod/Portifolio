@@ -1,75 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style/style.css">
-    <title>Mateus Teodoro </title>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Torna o site responsivo -->
+    <link rel="stylesheet" href="/style/style.css"> <!-- Importa o arquivo CSS externo -->
+    <title>Mateus Teodoro</title> <!-- Título da aba do navegador -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
 </head>
 <body>
-    <div class="container">
+    <div class="container"><!-- Container principal para centralizar o conteúdo -->
+
+        <!-- MENU DE NAVEGAÇÃO -->
         <nav>
             <ul>
-               <li>
-                   <a href="index.html">Sobre mim</a>
-               </li>
-               <li>
-                   <a href="contact.html">Contatos</a>
-               </li>
-               <li>
-                   <a href="project.html">Projetos</a>
-               </li>
-           </ul> 
-       </nav>
-       <header>
-           <div class="center">
-               <img src="./img/perfil.jpg" alt="foto perfil">
-           </div>
-   
-           <h1>Mateus Teodoro da Silva</h1>
-           <h2>Desenvolvedor Junior</h2>
-       </header>
-   
-       <main>
-           <section>
-               <p class="paragrafo">
-                   <strong>Sobre mim:</strong>
-               </p>
-               <p>
-                &nbsp;Profissional com sólida experiência em logística, em transição para a área de tecnologia, buscando aplicar habilidades transferíveis como gestão &nbsp;de processos, resolução de problemas e otimização de fluxos em projetos tecnológicos. Almejo contribuir para o desenvolvimento de soluções &nbsp;inovadoras, ao mesmo tempo em que expando minhas competências em tecnologia, com foco na geração de resultados mensuráveis e positivos.
-               </p>
-           </section>
-   
-           <section>
-               <p class="paragrafo">
-                   <strong>Formação:</strong>
-               </p>
+                <li><a href="index.html">Sobre mim</a></li>
+                <li><a href="contact.html">Contatos</a></li>
+                <li><a href="project.html">Projetos</a></li>
+            </ul>
+        </nav>
+
+        <!-- CABEÇALHO COM FOTO E TÍTULOS -->
+        <header>
+            <div class="center">
+                <img src="./img/perfil.jpg" alt="foto perfil"> <!-- Imagem de perfil -->
+            </div>
+            <h1>Mateus Teodoro da Silva</h1> <!-- Seu nome -->
+            <h2 id="typing-text"></h2> <!-- Sua função -->
+        </header>
+
+        <!-- CONTEÚDO PRINCIPAL -->
+        <main>
+            <!-- Seção sobre mim -->
+            <section class="fade-in">
+                <p class="paragrafo"><strong>Sobre mim:</strong></p>
                 <p>
-                &nbspCursando 3º Semestre Análise e Desenvolvimento de Sistemas na UNIP
+                    Profissional com sólida experiência em logística, em transição para a área de tecnologia, buscando aplicar habilidades transferíveis como gestão de processos, resolução de problemas e otimização de fluxos em projetos tecnológicos. Almejo contribuir para o desenvolvimento de soluções inovadoras, ao mesmo tempo em que expando minhas competências em tecnologia, com foco na geração de resultados mensuráveis e positivos.
                 </p>
-           </section>
-   
-           <section>
-               <p class="paragrafo">
-                   <strong>Cursos:</strong>
-               </p>
-               <p>
-                &nbsp;UDEMY - Banco de Dados Relacionais
-               </p>
-           </section>
-       </main>
-   
-       <footer>
-           <a href="https://github.com/mateusteod" target="_blank" rel="noopener noreferrer">
-               <img src="./img/github-icon-2.svg" alt="Github"></img>
-               <p>Github</p>
-           </a>
-           <a href="https://linkedin.com/in/mateus-teodoro-da-silva-026134285" target="_blank" rel="noopener noreferrer">
-               <img src="./img/LinkedIn_icon.svg.png" alt="Linkedin"></img>
-               <p>Linkedin</p>
-           </a>
-       </footer>
+            </section>
+            <br>
+            <!-- Seção de formação -->
+            <section class="fade-in">
+                <p class="paragrafo"><strong>Formação:</strong></p>
+                <p class="textos">Cursando 4º Semestre de Análise e Desenvolvimento de Sistemas na UNIP.</p>
+            </section>
+            <br>
+
+            <!-- Seção de cursos -->
+            <section class="fade-in">
+                <p class="paragrafo"><strong>Cursos:</strong></p>
+                <p class="textos">UDEMY - Banco de Dados Relacionais</p>
+            </section>
+        </main>
+        <br>
+
+        <section>
+        <p class="paragrafo"><strong>Tecnologias e Linguagens:</strong></p>
+        <div class="tech-icons">
+            <i class="fab fa-python" title="Python"></i>
+            <i class="fas fa-code" title="C"></i>
+            <i class="fab fa-html5" title="HTML5"></i>
+            <i class="fab fa-css3-alt" title="CSS3"></i>
+            <i class="fas fa-database" title="MySQL"></i>
+            <i class="fas fa-server" title="SQL Server"></i>
+            <i class="fas fa-flask" title="Flask"></i>
+            <i class="fab fa-git-alt" title="Git"></i>
+            <i class="fab fa-github" title="GitHub"></i>
+            <i class="fas fa-laptop-code" title="VS Code"></i>
+        </div>
+        </section>
+
+
+        <!-- RODAPÉ COM LINKS SOCIAIS -->
+        <footer>
+            <a href="https://github.com/mateusteod" target="_blank" rel="noopener noreferrer">
+                <img src="./img/github-icon-2.svg" alt="Github">
+                <p>Github</p>
+            </a>
+            <a href="https://linkedin.com/in/mateus-teodoro-da-silva-026134285" target="_blank" rel="noopener noreferrer">
+                <img src="./img/LinkedIn_icon.svg.png" alt="Linkedin">
+                <p>LinkedIn</p>
+            </a>
+        </footer>
     </div>
-    
+    <script>
+        const text = "Desenvolvedor FullStack";
+        let index = 0;
+        function type() {
+            if (index < text.length) {
+            document.getElementById("typing-text").innerHTML += text.charAt(index);
+            index++;
+            setTimeout(type, 100);
+        }
+    }
+    type();
+    </script>
 </body>
 </html>
